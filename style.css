@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin-left: 32px;
+}
+
+
+#header-container {
+    display: flex;
+    height: 32px;
+    ;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: 32px;
+    margin-bottom: 39px;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#logo {
+    background-image: url('./assets/imges/GameStop-Symbol.png');
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+}
+
+#logo-text {
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    margin-top: 53px;
+    margin-bottom: 42px;
+}
+
+#top-nav {
+    margin-left: 323px;
+}
+
+.header-text {
+    color: #612999;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.header-text:not(:first-child) {
+    margin-left: 64px;
+}
+
+#bolder {
+    font-weight: 700;
+}
+
+#top-nav a:hover {
+    color: #7f00ff;
+}
+

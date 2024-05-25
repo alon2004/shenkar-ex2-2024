@@ -261,3 +261,86 @@ h2 {
     margin-top: 14px;
     margin-bottom: 18px;
 }
+
+footer {
+    position: sticky;
+    width: 100%px;
+    height: 287px;
+    flex-shrink: 0;
+    background: #EFECFF;
+    bottom: 0;
+}
+
+#footer-container {
+    position: relative;
+    display: flex;
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-style {
+    position: absolute;
+    color: #333;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+#title1 {
+    position: absolute;
+    margin: 32px;
+}
+
+#title2 {
+    position: absolute;
+    margin-left: 308px;
+    margin-top: 32px;
+}
+
+.footer-style {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.culom {
+    position: absolute;
+    margin-top: 76px;
+}
+
+.culom div {
+    margin-bottom: 8px;
+}
+
+#culom1 {
+    margin-left: 32px;
+}
+
+#culom2 {
+    margin-left: 308px;
+}
+
+#media-logo {
+    margin-top: 182px;
+    margin-left: 32px;
+}
+
+#media-logo img {
+    margin-right: 24.38px;
+}
+
+#copy-right {
+    display: block;
+    margin-left: 32px;
+    margin-top: 16px;
+}

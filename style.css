@@ -11,6 +11,9 @@ a {
     margin-left: 32px;
 }
 
+.card {
+    margin-left: 32px;
+}
 
 #header-container {
     display: flex;
@@ -76,6 +79,7 @@ a {
     color: #7f00ff;
 }
 
+
 #cover-img {
     display: inline-block;
     width: 100%;
@@ -135,7 +139,6 @@ h2 {
     margin-top: 24px;
     margin-bottom: 24px;
 }
-
 
 .container-flex {
     display: flex;
@@ -344,7 +347,6 @@ footer {
     margin-left: 32px;
     margin-top: 16px;
 }
-
 
 .imges img:not(:first-child) {
     margin-left: 32px;
